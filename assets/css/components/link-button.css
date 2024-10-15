@@ -10,13 +10,15 @@ a.link-button .icon{
     height: 32px;
     padding: 3px;
     background-color: var(--primary-color);
-    border: solid 1px white;
     background-clip: content-box;
     border-radius: 50%;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 a.link-button .icon .play-icon{
@@ -30,5 +32,15 @@ a.link-button .icon .play-icon{
 }
 
 a.link-button .label{
-    margin-left: 10px;
+    margin-right: 15px;
+    color: var(--primary-color);
+    font-weight: 600;
+    size: 20px;
+    transition: color 1s ease;
+}
+
+a.link-button .label:hover {
+    color: #fff;
+    transition: color 0.5s ease-in-out;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
