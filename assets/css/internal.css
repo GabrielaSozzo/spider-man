@@ -56,6 +56,14 @@
     width: 800px;
 }
 
+.s-wrapper .s-main-content .s-logo .teste {
+  width: 500px;
+}
+
+.s-wrapper .s-main-content .s-logo .teste2 {
+  width: 400px;
+}
+
 .s-wrapper .s-main-content__top .s-description {
     background-color: rgba(0,0,0,.7);
     max-width: 50%;
